@@ -8,6 +8,11 @@ import Header from './Componetus/Header';
 import Footer from './Componetus/Footer';
 import Return from './Pages/Return';
 import Cart from './Pages/Cart'
+import Profile from './Pages/Profile';
+import Header2 from './Componetus/Header2';
+import DATA from './Pages/DATA';
+// import HomeBanner from './Pages/HomeBanner';
+
 
 const router = createBrowserRouter([
   {
@@ -23,21 +28,19 @@ const router = createBrowserRouter([
       },{
         path:"/Cart",
         element:<Cart/>
+      },{
+        path:"/Profile",
+        element: <Profile/>
       },
-      // },{
-      //   path:"/About",
-      //   element :<About />
-      // },{
-      //   path: "/Login",
-      //   element: <Login />
-      // },{
-      //   path:"/Cart",
-      //   element: <Cart/>
-      // },{
-      //   path:"/WishList",
-      //   element: <WishList />
-      // },
       {
+        path:"/Header2",
+        element: <Header2/>
+      },
+      {
+        path:"/DATA",
+        element: <DATA/>
+      },
+           {
       path:"*",
       element: <NotFound/>
       },
