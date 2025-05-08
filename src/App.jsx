@@ -6,6 +6,8 @@ import Home from './Home';
 import NotFound from './NotFound';
 import Header from './Componetus/Header';
 import Footer from './Componetus/Footer';
+import Return from './Pages/Return';
+import Cart from './Pages/Cart'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +17,12 @@ const router = createBrowserRouter([
       {
         index:true,
         element: <Home />
+      },{
+        path:"/Return",
+        element:<Return />
+      },{
+        path:"/Cart",
+        element:<Cart/>
       },
       // },{
       //   path:"/About",

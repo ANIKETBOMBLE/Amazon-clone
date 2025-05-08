@@ -7,6 +7,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import SearchIcon from '@mui/icons-material/Search';
 import flag from "./../assets/FLAG.png"
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import Cart from '../Pages/Cart';
 
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 function Header() {
@@ -56,13 +57,20 @@ function Header() {
   <div className=" font-bold">Accounts & Lists  <ArrowDropDownIcon/>  </div>
 </div>
 <div className="returnoder text-white flex  flex-col cursor-pointer   hover:border hover:border-white transition duration-100 rounded p-2"> 
+  <Link to="/Return"> 
   <div className="">Returns</div>
   <div className="font-bold">& Orders</div>
+    </Link>
+  
+  
 </div>
 
 <div className="Cart text-white  flex p-2 cursor-pointer">
+  <Link to="/Cart">  
   <ShoppingCartIcon className=''/>
   <span className='text-xl font-semibold'>Cart</span>
+    </Link>
+ 
   
 </div>
 
