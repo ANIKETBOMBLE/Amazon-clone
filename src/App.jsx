@@ -11,6 +11,9 @@ import Cart from './Pages/Cart'
 import Profile from './Pages/Profile';
 import Header2 from './Componetus/Header2';
 import DATA from './Pages/DATA';
+import Kitchenessentials from './Pages/Kitchenessentials'
+import Inspire from './Pages/Inspire';
+import More from './Pages/More';
 // import HomeBanner from './Pages/HomeBanner';
 
 
@@ -39,6 +42,18 @@ const router = createBrowserRouter([
       {
         path:"/DATA",
         element: <DATA/>
+      },
+      {
+        path:"/Kitchenessentials",
+        element: <Kitchenessentials/>
+        
+      },{
+        path:"/inspire",
+        element:<Inspire/>
+      },
+      ,{
+        path:"/More",
+        element: <More />
       },
            {
       path:"*",
