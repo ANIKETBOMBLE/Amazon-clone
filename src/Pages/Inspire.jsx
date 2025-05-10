@@ -34,6 +34,8 @@ function Inspire() {
 	
   return (
 	<>
+	<Link to="*">
+	
 	 <div className="bg-gray-100 p-4 rounded w-full max-w-8xl mx-auto relative min-h-fit">
 		  <div className="flex justify-between items-center mb-4 px-2">
 			<h2 className="text-lg font-bold text-gray-800">
@@ -67,7 +69,9 @@ function Inspire() {
 			<BiRightArrowAlt />
 	
 		  </button>
+		  
 		</div>
+		</Link>
 		</>
   )
 }

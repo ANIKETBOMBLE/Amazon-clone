@@ -33,6 +33,7 @@ const More = () => {
 
   return (
   <>
+   <Link to='*'> 
     <div className="bg-gray-100 p-4 rounded w-full h-auto object-cover max-w-8xl mx-auto  relative flex-nowrap min-h-fit">
       <div className="flex justify-between items-center mb-4 px-2">
         <h2 className="text-lg font-bold text-gray-800">
@@ -68,6 +69,7 @@ const More = () => {
 
       </button>
     </div>
+    </Link>
   </>
   
   );
