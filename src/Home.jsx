@@ -9,6 +9,7 @@ import HomeData from './HomeData';
 import  YourB from './Pages/YourB'
 function Home() {
   const images = [
+    'https://m.media-amazon.com/images/I/81BKxaj0USL._SX3000_.jpg',
     'https://images-eu.ssl-images-amazon.com/images/G/31/INSLGW/90days2x._CB795748422_.jpg',
     'https://m.media-amazon.com/images/I/81fxOpw3zsL._SX3000_.jpg',
     'https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/Shankhadip/MayART25/MAY25_GW_PC_Hero_H1_8PM_EToday_2X._CB795749964_.jpg',
