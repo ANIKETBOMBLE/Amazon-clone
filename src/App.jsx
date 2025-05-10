@@ -14,6 +14,10 @@ import DATA from './Pages/DATA';
 import Kitchenessentials from './Pages/Kitchenessentials'
 import Inspire from './Pages/Inspire';
 import More from './Pages/More';
+import Addmore from './Pages/Addmore';
+import HomeData from './HomeData';
+import Product from './Prodcut';
+import YourB from './Pages/YourB';
 // import HomeBanner from './Pages/HomeBanner';
 
 
@@ -54,6 +58,19 @@ const router = createBrowserRouter([
       ,{
         path:"/More",
         element: <More />
+      },{
+        path:"/Addmore",
+        element: <Addmore/>
+      },{
+        path:"/HomeData",
+        element: <HomeData />
+      },{
+        path : "/product/:id" ,
+        element: <Product />
+      },
+      {
+        path:"/YourB",
+        element: <YourB/>
       },
            {
       path:"*",

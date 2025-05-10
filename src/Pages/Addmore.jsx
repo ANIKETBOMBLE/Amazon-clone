@@ -1,16 +1,16 @@
 import React from 'react'
 // import HomeProduct from './homeprodcut';
-import {productData } from './homeprodcut'
+import {ProdcutData2 } from './Prodcut'
 import { Link } from 'react-router-dom'
-function DATA() {
+function Addmore() {
   
 
 
   return (
     
     <>
- <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6  absolute top-95   ">
-  {productData.map((product, index) => (
+ <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6  ">
+  {ProdcutData2.map((product, index) => (
     <div
       key={index}
       className="bg-white rounded shadow hover:shadow-xl  transition p-5 flex flex-col "
@@ -47,4 +47,4 @@ function DATA() {
 
 
 
-export default DATA
+export default Addmore;

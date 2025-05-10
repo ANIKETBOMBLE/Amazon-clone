@@ -33,7 +33,9 @@ const Kitchenessentials = () => {
 
   return (
 	<>
-    <div className="bg-gray-100 p-4 rounded w-full max-w-8xl mx-auto  relative flex-nowrap min-h-fit">
+    <div className="bg-gray-100 p-4 rounded w-full max-w-8xl mx-auto  relative flex-nowrap min-h-fit" >
+      <Link to="*">    
+     
       <div className="flex justify-between items-center mb-4 px-2">
         <h2 className="text-lg font-bold text-gray-800">
           Up to 60% off | Kitchen essentials
@@ -47,7 +49,7 @@ const Kitchenessentials = () => {
             key={i}
             src={src}
             alt={`Kitchen item ${startIndex + i + 1}`}
-            className="w-full h-auto object-contain rounded shadow hover:scale-105 transition-transform duration-300"
+            className="w-full h-48 object-contain rounded shadow hover:scale-105 transition-transform duration-300"
           />
         ))}
       </div>
@@ -66,7 +68,9 @@ const Kitchenessentials = () => {
         <BiRightArrowAlt />
 
       </button>
+         </Link>
     </div>
+  
 	</>
 	
   );

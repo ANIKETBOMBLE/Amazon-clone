@@ -4,6 +4,9 @@ import DATA from './Pages/DATA';
 import Kitchenessentials from './Pages/Kitchenessentials'
 import Inspire from './Pages/Inspire'
 import More from './Pages/More';
+import Addmore  from './Pages/Addmore';
+import HomeData from './HomeData';
+import  YourB from './Pages/YourB'
 function Home() {
   const images = [
     'https://images-eu.ssl-images-amazon.com/images/G/31/INSLGW/90days2x._CB795748422_.jpg',
@@ -53,8 +56,14 @@ function Home() {
     
     <DATA/>
     <Kitchenessentials/>
-    <Inspire/>
-    <More/>
+    <Inspire/> 
+     <HomeData />
+    <Addmore/>
+     <More/>
+     
+        <HomeData />
+         <YourB/>
+       
       
     </>
   );

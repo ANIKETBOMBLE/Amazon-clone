@@ -39,7 +39,7 @@ function Inspire() {
 			<h2 className="text-lg font-bold text-gray-800">
 			 Inspired by your cart
 			</h2>
-			<a href="#" className="text-blue-600 text-sm hover:underline">See all offers</a>
+			<a href="*" className="text-blue-600 text-sm hover:underline">See all offers</a>
 		  </div>
 	
 		  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
@@ -48,7 +48,7 @@ function Inspire() {
 				key={i}
 				src={src}
 				alt={`Kitchen item ${startIndex + i + 1}`}
-				className="w-full h-auto object-contain rounded shadow hover:scale-105 transition-transform duration-300"
+				className="w-full h-48 object-contain rounded shadow hover:scale-105 transition-transform duration-300"
 			  />
 			))}
 		  </div>
